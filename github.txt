@@ -1,0 +1,40 @@
+git --version
+git
+
+ssh-keygen
+enter
+enter
+enter
+
+ssh -T git@github.com
+
+git config --global user.name "chloeshang"
+git config --global user.email "chloeshang49@gmail.com"
+git config user.name
+git config user.email
+
+git init
+
+git remote add origin git@github.com:chloeshang/pttsoftware.git
+git remote -v
+
+git status
+git add -A
+git commit -m "26 may 2022"
+
+git push -u origin branchname
+git push -u origin master
+
+
+hetoku
+
+git init
+
+heroku login
+
+heroku git:remote -a appname
+git add .
+git commit -am "make it better"
+git push heroku master
+
+
